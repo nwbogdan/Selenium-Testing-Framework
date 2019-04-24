@@ -30,7 +30,7 @@ public class FirefoxDriverDemo {
 		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[2]/div/div[3]/center/input[1]")).click();
 		
 		Thread.sleep(5000);
-		driver.quit();
+		//driver.quit();
 	}
 
 }
